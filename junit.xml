@@ -1,0 +1,52 @@
+<testsuites name="jest tests" tests="4" failures="4" time="1.353">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2022-07-01T03:49:47" time="1.353" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.004">
+      <failure>TypeError: Cannot read property &apos;current&apos; of undefined
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:908:55)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:44)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:15:3)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /projects/challenge/node_modules/p-map/index.js:46:16</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="0.001">
+      <failure>TypeError: Cannot read property &apos;current&apos; of undefined
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:908:55)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:44)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:24:3)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /projects/challenge/node_modules/p-map/index.js:46:16</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.001">
+      <failure>TypeError: Cannot read property &apos;current&apos; of undefined
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:908:55)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:44)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:40:3)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /projects/challenge/node_modules/p-map/index.js:46:16</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.001">
+      <failure>TypeError: Cannot read property &apos;current&apos; of undefined
+    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:908:55)
+    at render (/projects/challenge/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/projects/challenge/src/App.test.js:7:44)
+    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:59:3)
+    at Object.asyncFn (/projects/challenge/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /projects/challenge/node_modules/p-map/index.js:46:16</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
